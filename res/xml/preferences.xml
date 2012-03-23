@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="User Settings">
+        <EditTextPreference android:title="User name" android:key="username" android:summary="Please maintain your user name."/>
+        <EditTextPreference android:title="Password" android:key="password" android:summary="Please maintain your password." android:inputType="textPassword"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
